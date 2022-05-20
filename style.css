@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* for the links and colorflipper text */
+div:first-of-type{
+    height: 90px;
+}
+nav{
+   float: right;
+   border: 1px solid black;
+   padding-left: 140px;
+   padding-right: 20px;
+   background-color: grey;
+    }
+h4:first-of-type{
+    position: relative;
+    right: 120px;
+}
+ul:first-of-type{
+    position: relative;
+    right: 135px;
+}
+h4:last-of-type{
+    position: relative;
+    bottom: 82px;
+}
+ul:last-of-type{
+    position: relative;
+    bottom: 82px;
+    right: 20px;
+}
+/* for the color/hex display & button */
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+h2 {
+    position: relative;
+    bottom: 30px;
+    left: 100px;
+    font-size:xx-large;
+}
+button {
+    position: relative;
+    top: 25px;
+    left: 100px;
+    font-size: large;
+}
